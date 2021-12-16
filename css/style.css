@@ -17,7 +17,7 @@ header h2 {
 }
 
 footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background-image: linear-gradient(to right, #a99eff, rgb(250, 162, 228));
   padding: 20px 0;
 }
 
