@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: whitesmoke;
 }
 
 h1,
@@ -43,4 +44,11 @@ footer {
   border: 1px solid #ddd;
   border-top: none;
   padding: 10px;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel img {
+  /* border: solid #1ed0e7; */
 }
