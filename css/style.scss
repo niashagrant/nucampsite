@@ -1,0 +1,81 @@
+$color-primary: #3046c5;
+$color-secondary: violet;
+$color-pale: #cec8ff;
+$color-regular: #a99eff;
+$color-mid: #901cad;
+$color-dark: purple;
+$color-black-trasparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+body {
+  font-family: $body-font;
+  background-color: whitesmoke;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $header-font;
+  font-weight: 600;
+}
+
+h2 {
+  color: $color-primary;
+}
+
+header {
+  h2 {
+    color: $color-pale;
+  }
+  //   nesting
+}
+
+footer {
+  background-image: linear-gradient(to right, $color-regular, $color-secondary);
+  padding: 20px 0;
+}
+
+.jumbotron {
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    $color-secondary,
+    $color-dark,
+    $color-primary
+  );
+  color: white;
+  margin: 0;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar-dark {
+  background-color: $color-mid;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px;
+}
+.carousel-caption {
+  background-color: $color-black-trasparent;
+}
+
+.carousel img {
+  /* border: solid #1ed0e7; */
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  /* the buttons are overlaying on the carosuel thanks to the z-index */
+}
