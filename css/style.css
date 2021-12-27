@@ -52,3 +52,11 @@ footer {
 .carousel img {
   /* border: solid #1ed0e7; */
 }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  /* the buttons are overlaying on the carosuel thanks to the z-index */
+}
