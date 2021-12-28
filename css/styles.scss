@@ -5,6 +5,7 @@ $color-regular: #a99eff;
 $color-mid: #901cad;
 $color-dark: purple;
 $color-black-trasparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17a2b8;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -78,4 +79,18 @@ footer {
   bottom: 0;
   z-index: 100;
   /* the buttons are overlaying on the carosuel thanks to the z-index */
+}
+
+#reserveModal {
+  .modal-header {
+    background-color: $color-teal;
+    color: white;
+  }
+}
+
+#loginModal {
+  .modal-header {
+    background-color: $color-mid;
+    color: white;
+  }
 }
